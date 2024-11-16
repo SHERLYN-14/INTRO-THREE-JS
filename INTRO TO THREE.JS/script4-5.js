@@ -72,6 +72,7 @@ const tick = () =>
   // cam.position.z = Math.cos(cursor.x * Math.PI * 2) * 2;
   // cam.position.y = cursor.y * 2;
   // cam.lookAt(mesh.position);
+  //
 
   controls.update();
   renderer.render(scene,cam);
